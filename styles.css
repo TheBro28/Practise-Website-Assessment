@@ -1,0 +1,56 @@
+header {
+    height: 130px;
+    background-color: #1F2A02;
+}
+
+
+nav {
+    height: 45px;
+    background-color: #8DA744;
+}
+
+
+main {
+    width: 50%;
+    background-color: #384001;
+}
+
+
+aside {
+    width: 50%;
+    background-color: #384001
+    float: right;
+}
+
+
+footer {
+    height: 45px;
+    background-color: #8DA744;
+}
+
+
+.logo {
+
+}
+
+
+.side-image {
+height: 382px;
+padding-right: 15px;
+float: right;
+}
+
+
+h1 {
+
+}
+
+
+h2 {
+
+}
+
+
+p {
+
+}
