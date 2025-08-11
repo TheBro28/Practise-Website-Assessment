@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400;700&family=Inter:wght@100;400;700&family=Jost:wght@100;400;700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
 header {
     height: 130px;
     background-color: #1F2A02;
@@ -7,50 +9,72 @@ header {
 nav {
     height: 45px;
     background-color: #8DA744;
+    text-align: center;
 }
 
 
 main {
-    width: 50%;
+    width: 100%;
     background-color: #384001;
 }
 
 
 aside {
-    width: 50%;
-    background-color: #384001
-    float: right;
+    width: 100%;
+    background-color: #384001;
+    
 }
 
 
 footer {
     height: 45px;
     background-color: #8DA744;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 
 .logo {
-
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
 }
 
 
 .side-image {
-height: 382px;
-padding-right: 15px;
-float: right;
+    height: 382px;
+    padding-right: 15px;
+    float: right;
 }
 
-
 h1 {
-
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding-top: 125px;
+    font-size: 60px;
 }
 
 
 h2 {
-
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 40px;
 }
 
 
 p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
 
+a {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
 }
